@@ -1,0 +1,16 @@
+{
+  "name": "api-cypress",
+  "version": "1.0.0",
+  "description": "api-cypress-myskill",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+
+  "author": "salsabilarhdsy",
+  "license": "ISC",
+
+  "dependencies": {
+    "cypress": "^12.17.1"
+  }
+}
