@@ -13,6 +13,9 @@
 3. Terus run pakai "node_modules\.bin\cypress open"
    
 (optional, belum dicoba)
-Klo gabisa cek di "C:\Users\user\AppData\Local\Cypress\" ada versi cypress yg sesuai sama yg di package.json (project), 
+
+4. Klo gabisa cek di "C:\Users\user\AppData\Local\Cypress\" ada versi cypress yg sesuai sama yg di package.json (project), 
 - kalau ga ada buat folder sesuai versi
 - terus install cypress (bisa download cypress terus unzip didalemnya)
+
+5. Install cypress di path sesuai errornya "Error: Cannot find module 'F:\cypress\bin\cypress'"
