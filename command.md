@@ -1,4 +1,4 @@
-### Terminal
+### How to start a new cypress project
 1. Make sure javascript sudah terinstall
 2. npm install cypress --save-dev
 3. npm init (to start)
@@ -7,15 +7,12 @@
 6. New file di e2e folder yaitu get.js
 7. Cara run test: npm run cypress atau npx cypress open
 
-### Note
-1. Cypress also using chai
-
-# Kalau laptop gabisa run, coba tips ini
-
+# How to run if error happened
 1. npm install cypress
-2. pastiin ada file node_modules\.bin\cypress
-3. Terus run pakai node_modules\.bin\cypress open
-4. Klo gabisa cek di C:\Users\salsa\AppData\Local\Cypress\Cache ada versi cypress yg sesuai atau gak sama yg dipackage.json, 
+2. pastiin ada file "node_modules\.bin\cypress"
+3. Terus run pakai "node_modules\.bin\cypress open"
+   
+(optional, belum dicoba)
+Klo gabisa cek di "C:\Users\user\AppData\Local\Cypress\" ada versi cypress yg sesuai sama yg di package.json (project), 
 - kalau ga ada buat folder sesuai versi
 - terus install cypress (bisa download cypress terus unzip didalemnya)
-
